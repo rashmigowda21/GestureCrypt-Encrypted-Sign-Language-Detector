@@ -42,7 +42,6 @@ def normalizeData(landmark_list):
             list_copy[index] = landmark_point - base_y
 
     list_copy = list(map(lambda x: x / max(list(map(abs, list_copy))), list_copy))
-
     return list_copy
 
 while True:
